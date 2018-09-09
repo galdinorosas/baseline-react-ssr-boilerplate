@@ -1,7 +1,7 @@
 {
-  "name": "simple-universal-react-redux",
+  "name": "baseline-react-ssr-boilerplate",
   "version": "0.10.1",
-  "description": "The simplest Async Universal React & Redux boilerplate I could possibly make.",
+  "description": "baseline-react-ssr-boilerplate",
   "main": "src/server/index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -13,13 +13,13 @@
     "build": "npm run clean && npm run prod-server && npm run prod-client",
     "start": "cross-env NODE_ENV=production node ./dist/server/index.js"
   },
-  "author": "William Woodhead",
+  "author": "Galdino Rosas",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/william-woodhead/simple-universal-react-redux"
+    "url": ""
   },
-  "homepage": "https://github.com/william-woodhead/simple-universal-react-redux",
+  "homepage": "",
   "keywords": [
     "react",
     "isomorphic",
